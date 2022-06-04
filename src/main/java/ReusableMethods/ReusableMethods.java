@@ -9,6 +9,7 @@ public class ReusableMethods {
 		
         String responsAsString = response.asString();
         JsonPath js = new JsonPath(responsAsString);
+        System.out.println("Returning the jsonpath object");
 		return js;
 	}
 	
